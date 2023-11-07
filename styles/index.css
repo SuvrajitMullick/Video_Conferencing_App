@@ -2,7 +2,7 @@
   width: 90%;
   max-width: 600px;
   border-radius: 10px;
-  background-color: #262625;
+  background-color: #000000;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -17,7 +17,7 @@
   border-radius: 10px 10px 0 0;
   padding: 10px;
   text-align: center;
-  background-color: #363739;
+  background-color: #091c87;
   margin: 0;
   font-size: 18px;
   font-size: 300;
@@ -53,20 +53,21 @@
 
 .form__field__wrapper input {
   box-sizing: border-box;
-  color: #fff;
+  color: #ff0000;
+  font-weight: bolder;
   width: 100%;
   margin: 0;
   border: none;
   border-radius: 5px;
   padding: 16px 20px;
   font-size: 15px;
-  background-color: #3f434a;
+  background-color: #ffffff;
 }
 
 .form__field__wrapper button[type='submit'] {
   margin-top: 32px;
   cursor: pointer;
-  background-color: #845695;
+  background-color: #a51314;
   border: none;
   color: #fff;
   font-size: 16px;
@@ -84,21 +85,10 @@
   width: 20px;
 }
 
-#avatar__selection {
-  margin-right: 10px;
-  display: flex;
-  gap: 1em;
-}
-
-.avatar__option {
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  cursor: pointer;
-  transition: 0.3s;
-  border: 2px solid #797a79;
-}
-
-.avatar__option__selected {
-  border: 3px solid #845695;
+.form__field__wrapper button[type='submit']:hover,
+.form__field__wrapper button[type='submit'] svg:hover {
+  background-color: #ff0000;
+  color: #000000;
+  font-weight: bold;
+    fill: #000000;
 }

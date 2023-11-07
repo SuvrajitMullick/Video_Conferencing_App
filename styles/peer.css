@@ -12,16 +12,20 @@
 }
 
 .video-player {
-    background-color: black;
+    /* background-color: black; */
     width: 100%;
     height: 100%;
     object-fit: cover;
+    
+    background-image: url("/images/logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75px;
 }
 
 #user-2 {
     display: none;
 }
-
 
 .smallFrame {
     position: fixed;
@@ -30,9 +34,9 @@
     height: 170px;
     width: 300px;
     border-radius: 5px;
-    border: 2px solid #b366f9;
-    -webkit-box-shadow: 3px 3px 15px -1px rgba(0, 0, 0, 0.77);
-    box-shadow: 3px 3px 15px -1px rgba(0, 0, 0, 0.77);
+    border: 2px solid #a51314;
+    -webkit-box-shadow: 3px 3px 15px -1px #a51314;
+    box-shadow: 3px 3px 15px -1px #a51314;
     z-index: 999;
 }
 
@@ -48,7 +52,7 @@
 
 
 .control-container {
-    background-color: rgb(179, 102, 249, .9);
+    background-color: #091c87;
     padding: 20px;
     border-radius: 50%;
     display: flex;
@@ -63,7 +67,7 @@
 }
 
 #leave-btn {
-    background-color: rgb(255, 80, 80, 1);
+    background-color: #a51314;
 }
 
 
